@@ -20,9 +20,12 @@
 # All integers in 'nums' are distinct.
 # 'nums' is sorted in non-decreasing order.
 
+#This is the change that i am making nothing just the read me and some print statements
+
 def locate_element(nums, target):
     left = 0
     right = len(nums)-1
+    print(left,right)
     while(left<=right):
         mid = (left+right)//2
         if nums[mid] == target:
@@ -31,4 +34,5 @@ def locate_element(nums, target):
             right = mid -1
         else:
             left = mid+1
+    print("Nothing is happening")
     return -1
