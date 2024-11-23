@@ -3,7 +3,7 @@
 # Should 'target' be present in 'nums', return its array index.
 # If 'target' is absent from 'nums', return -1.
 # Design your solution to operate with a time complexity of O(log n), leveraging the efficiency of binary search.
- 
+ #nothing
 # Example 1:
 # Input: nums = [-1,0,3,5,9,12], target = 9
 # Output: 4
